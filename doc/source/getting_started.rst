@@ -42,7 +42,11 @@ Trackmate functionality.
 Checking Fiji installation
 --------------------------
 The tracking portion of diff_classifier relies on the Fiji plugin `Trackmate
-<https://imagej.net/TrackMate>`_. The setup file should install Fiji
+<https://imagej.net/TrackMate>`_.
+
+It's easiest to install Fiji manually at https://fiji.sc/#download.
+
+The setup file should install Fiji
 automatically with the Python plugin
 `fijibin <https://pypi.org/project/fijibin/>`_. By default, this is usually
 installed in the directory
@@ -51,7 +55,6 @@ installed in the directory
 
   /name/of/home/directory/.bin
 
-If needed, you can install Fiji manually `here <https://fiji.sc/#download>`_.
 
 Note: Python2/Python3 compatability
 -----------------------------------
